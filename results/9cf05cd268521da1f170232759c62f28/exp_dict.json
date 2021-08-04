@@ -1,0 +1,18 @@
+{
+    "augmentations": {
+        "rescale": 0.00392156862745098
+    },
+    "batch_size": 128,
+    "dataset": "mnist",
+    "epochs": 5,
+    "loss": "categorical_crossentropy",
+    "metrics": [
+        "accuracy"
+    ],
+    "model": "convnet_shallow",
+    "optimizer": "adam",
+    "optimizer_params": {
+        "lr": 0.0001
+    },
+    "seed": 111
+}
